@@ -22,15 +22,15 @@ def  again(sender) :
 	counts = script2.count(substring)                                                                  #Count the number of times display-url appears
 	metaTag = soup.find_all('meta', {'property': 'og:video'})                                          #Find if there's a video in the post
 	if metaTag : #If video
-		v['textview'].text = ('Downloading vidéo...')                                                    #Update print 
+		v['textview'].text = ('Downloading vidéo...')                                              #Update print 
 		#metaTag = soup.find_all('meta', {'property': 'og:video'})
-		imgURL = metaTag[0]['content']                                                                   #Take the first one in the post
+		imgURL = metaTag[0]['content']                                                             #Take the first one in the post
 		urllib.request.urlretrieve(imgURL, 'fileName.mp4') 
 		PHPhotoLibrary = ObjCClass('PHPhotoLibrary')
 		PHAssetChangeRequest = ObjCClass('PHAssetChangeRequest')
 		def add_video():
 			lib = PHPhotoLibrary.sharedPhotoLibrary()
-			url = nsurl('fileName.mp4')                                                                    #Name of local video file
+			url = nsurl('fileName.mp4')                                                        #Name of local video file
 			def change_block():
 				req = PHAssetChangeRequest.creationRequestForAssetFromVideoAtFileURL_(url)
 			def perform_changes():
@@ -41,16 +41,16 @@ def  again(sender) :
 		if __name__ == '__main__':
 			add_video() 
 		v['textview'].text =  ('Vidéo téléchargée dans votre galerie')
-		os.remove('fileName.mp4')                                                                       #Clear files
+		os.remove('fileName.mp4')                                                                   #Clear files
 	else :	
-		if counts == 1 :                                                                                #if only one img
+		if counts == 1 :                                                                            #if only one img
 			metaTag = soup.find_all('meta', {'property': 'og:image'})
 			imgURL = metaTag[0]['content']
 			urllib.request.urlretrieve(imgURL, 'fileName.jpg')
 			v['textview'].text = ('Image téléchargée dans votre galerie')
 			photos.create_image_asset('fileName.jpg')
 			os.remove('fileName.jpg')
-		elif counts > 1 :                                                                               #If multiples img
+		elif counts > 1 :                                                                           #If multiples img
 			txt = soup.select('script[type="text/javascript"]')[3] 
 			texte = txt.get_text()
 			fille = open("tet.txt", 'w')
@@ -105,7 +105,7 @@ def  again(sender) :
 				nbindr = nbindr +2
 				images += 1
 			v['textview'].text = ("C'est bon")
-			os.remove('photo.jpg')                                                                         #Remove all traces
+			os.remove('photo.jpg')                                                             #Remove all traces
 			os.remove('tet.txt')
 			os.remove('url.html')
 	sound.play_effect('game:Ding_3')                                                                   #Sound for done
