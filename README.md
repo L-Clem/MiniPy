@@ -2,7 +2,7 @@
 Public repository of standalone old little python programs of mine. All of them are greatly made because of the time they were made.   
 
 - [Insta](./Insta.py) - Instagram post pics and vids downloader for iOS and Pythonista 3. 
-*Functionned with an non present .pyui file responsible of the ui*
+*Functionned with a non present .pyui file responsible of the ui*
 - [Appel](./Appel.py) - Small program to filter a list with the absent ones.
 - [marge et profit](./marge_et_profit.py) - Program to get your margin and profits.
 - [met](./met.py) - Small program to get a score of well being when doing sport in the day (according to my own criterias of that time).
