@@ -1,5 +1,5 @@
 # MiniPy
-Public repository with standalone old little programs of mine. All of them are greatly made because of the time they were made.   
+Public repository of standalone old little python programs of mine. All of them are greatly made because of the time they were made.   
 
 - [Insta](./Insta.py) - Instagram post pics and vids downloader for iOS and Pythonista 3. 
 *Functionned with an non present .pyui file responsible of the ui*
