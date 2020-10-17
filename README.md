@@ -1,5 +1,5 @@
 # MiniPy
-Public repository with standalone little programs. 
+Public repository with standalone little programs of mine. 
 
 1. [Insta.py](./Insta.py) - Instagram post pics and vids downloader for iOS and Pythonista 3.
 
