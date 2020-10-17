@@ -1,3 +1,5 @@
+<img align="center" alt="Maintenance" src="https://img.shields.io/maintenance/no/2018"> <img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/Jpn287/MiniPy/master">
+
 # MiniPy
 Public repository of standalone old little python programs of mine. All of them are greatly made because of the time they were made.   
 
