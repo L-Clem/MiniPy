@@ -1,7 +1,7 @@
 <img align="center" alt="Maintenance" src="https://img.shields.io/maintenance/no/2018"> <a href="https://www.codefactor.io/repository/github/jpn287/minipy"><img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/Jpn287/MiniPy/master"></a>
 
 # MiniPy
-Public repository of standalone old little python programs of mine. All of them are greatly made because of the time they were made.   
+Public repository of standalone old and badly made little python programs of mine. 
 
 - [Insta](./Insta.py) - Instagram post pics and vids downloader for iOS and [Pythonista 3](http://omz-software.com/pythonista/). 
 *Functionned with a non present .pyui file responsible at the time of the ui on Pythonista 3*
