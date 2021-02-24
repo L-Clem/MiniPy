@@ -1,4 +1,7 @@
-<img align="center" alt="Maintenance" src="https://img.shields.io/maintenance/no/2018"> <a href="https://www.codefactor.io/repository/github/jpn287/minipy"><img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/Jpn287/MiniPy/master"></a>
+<img align="center" alt="Maintenance" src="https://img.shields.io/maintenance/no/2018"> <a href="https://www.codefactor.io/repository/github/jpn287/minipy">
+
+&#127760; *Choose your* &#128483; : [&#127468;&#127463;](./READMEEN.md)
+
 
 # MiniPy
 Public repository of standalone old and badly made little python programs of mine. 
